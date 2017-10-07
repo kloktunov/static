@@ -1,0 +1,43 @@
+body {
+	background: #252525;
+}
+
+body > .center {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+body > .center > .main {
+	float: left;
+	width: 100%;
+}
+
+body > .center > .main > .insert_code {	
+	float: left;
+	width: 100%;
+	font-size: 15px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+body > .center > .main > .insert_code > code {	
+	padding: 20px;
+	border-radius: 5px;
+	overflow: hidden;
+	background: #202020;
+}
+
+.title {
+	float: left;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	color: #ffffff;
+	line-height: 36px;
+	background-image: url('/static/css/image/logos/quack_white_s.png');
+	background-position: 0px center;
+	background-repeat: no-repeat;
+	padding-left: 55px;
+
+}
