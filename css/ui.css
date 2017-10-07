@@ -1,0 +1,355 @@
+div.error {
+	float: left;
+	width: 100%;
+	color: #ca4646;
+	background-color: #ffe5e7;
+	border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-khtml-border-radius: 3px 3px 3px 3px;
+}
+
+div.error > div {
+	float: left;
+	margin: 15px;
+}
+
+div.success {
+	float: left;
+	width: 100%;
+	color: #808080;
+	background-color: #ededed;
+	border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-khtml-border-radius: 3px 3px 3px 3px;
+}
+
+div.success > div {
+	float: left;
+	margin: 15px;
+}
+
+a{
+	text-decoration: none;
+	color: #5b96cd;
+	cursor: pointer;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+
+input[type="text"], input[type="password"]{
+	border: 1px solid #DCDCDC;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-width: 170px;
+	background-color: #ffffff;
+	font-weight: normal;
+	font-size: 11px;
+	font-family: arial, tahoma;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+}
+
+input[type="text"]:focus,input[type="password"]:focus{
+	border: 1px solid #5b96cd;
+}
+
+input[type="text"][disabled], input[type="password"][disabled]{
+    color: #808080;
+    background-color: #f2f2f2;
+}
+
+textarea, .textarea {
+	width: 200px;
+	min-height: 60px;
+	max-height: 120px;
+	border: 1px solid #DCDCDC;
+	padding: 10px;
+	background: #ffffff;
+	font-weight: normal;
+	font-size: 11px;
+	font-family: arial, tahoma;
+	resize: none;
+	overflow-y: auto;
+}
+
+textarea:focus, .textarea:focus{
+	border: 1px solid #5b96cd;
+}
+textarea[disabled], .textarea[disabled]{
+    color: #808080;
+    background-color: #f2f2f2;
+}
+
+.placeholder {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: #808080;
+	height: 0px;
+}
+
+.textarea:hover + .placeholder {
+	color: #b4b4b4;
+}
+.textarea:focus + .placeholder {
+	display: none;
+}
+
+
+select {
+	border: 1px solid #DCDCDC;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	min-width: 170px;
+	background-color: #ffffff;
+	font-weight: normal;
+	font-size: 11px;
+	font-family: arial, tahoma;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;	
+}
+
+select:focus{
+	border: 1px solid #5b96cd;
+}
+
+select[disabled]{
+    color: #808080;
+    background-color: #f2f2f2;
+}
+
+input[type="button"], button, .button{
+	text-decoration: none;
+	text-align: center;
+	background: #63a3de;
+	border: none;
+	border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-khtml-border-radius: 3px 3px 3px 3px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	padding-left: 14px;
+	padding-right: 14px;
+	font-size: 11px;
+	color: white;
+	cursor: pointer;
+	outline: 0px;
+}
+
+input[type="button"]:hover, button:hover, .button:hover{
+	background: #5b96cd;
+	text-decoration: none;
+}
+
+input[type="button"]:focus, button:focus, .button:focus{
+	background: #5b96cd;
+}
+
+input[type="button"]:active, button:active, .button:active{
+	box-shadow: inset 0px 5px 20px #336699;
+	color: #ededed;
+	outline: 0px;
+}
+
+input[type="button"].cancel, button.cancel, .button.cancel {
+	color: #606060;
+	background-color: #ededed;
+}
+
+input[type="button"].cancel:hover, button.cancel:hover, .button.cancel:hover {
+	background-color: #DCDCDC;
+}
+
+input[type="button"].cancel:focus, button.cancel:focus, .button.cancel:focus{
+/*	background: #dcdcdc;*/
+}
+
+input[type="button"].cancel:active, button.cancel:active, .button.cancel:active{
+	box-shadow: inset 0px 5px 20px #cdcdcd;
+	color: #707070;
+}
+
+
+input[type="button"][disabled], button[disabled],.button[disabled]{
+	text-align: center;
+	text-shadow: none;
+	color: #ababab;
+	background: #ededed;
+	border: 1px solid #dddddd;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 13px;
+	padding-right: 13px;
+	cursor: default;
+	outline-width: 0px;
+	display: inherit;
+}
+
+
+input[type="text"].error, input[type="password"].error{
+	border-color: #d20000;
+}
+
+input[type="text"].icon, input[type="password"].icon{
+	padding-left: 30px;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+}
+
+
+input[type="checkbox"]{
+	display: none;
+}
+
+
+input[type="checkbox"] + label {
+	float: left;
+	padding-left: 25px;
+	cursor: pointer;
+	line-height: 16px;
+	height: 16px;
+	background-image: url("image/ui_checkbox.png");
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+input[type="checkbox"] + label:hover {
+	background-position: 0px -16px;
+}
+
+input[type="checkbox"]:checked + label {
+	background-position: 0px -32px;
+}
+
+input[type="checkbox"] + label:hover {
+	background-position: 0px -16px;
+}
+
+input[type="checkbox"]:checked + label {
+	background-position: 0px -32px;
+}
+
+
+input[type="radio"]{
+	display: none;
+}
+
+
+input[type="radio"] + label {
+	float: left;
+	padding-left: 25px;
+	cursor: pointer;
+	line-height: 16px;
+	height: 16px;
+	background-image: url("image/ui_radiobox.png");
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+input[type="radio"] + label:hover {
+	background-position: 0px -16px;
+}
+
+input[type="radio"]:checked + label {
+	background-position: 0px -32px;
+}
+
+input[type="radio"] + label:hover {
+	background-position: 0px -16px;
+}
+
+input[type="radio"]:checked + label {
+	background-position: 0px -32px;
+}
+
+.windows {
+	float: left;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-image: url("image/black_opacity50.png");
+	overflow-y: scroll;
+}
+
+.windows > .window {
+	float: left;
+	width: 100%;
+}
+
+.windows >.window .alert_center {
+	margin: 15% auto 15px;
+	width: 450px;
+}
+
+.windows >.window .alert {
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	background: #ffffff;
+}
+
+.windows > .window .alert .panel {
+	float: left;
+	width: 100%;
+}
+
+.windows > .window .alert .panel .text {
+	float: left;
+	width: 370px;
+	margin: 15px;
+	font-size: 15px;
+
+}
+
+.windows > .window .alert .panel .func {
+	float: right;
+	margin: 18px;
+	margin-bottom: 0px;
+}
+
+.windows > .window .alert .panel .func .close {
+	float: right;
+	width: 12px;
+	height: 12px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-image: url('image/close_icon.png');
+}
+
+.windows > .window .alert .panel .func .close:hover {
+	cursor: pointer;
+	background-position: 0px -12px;
+}
+
+.windows > .window .alert .content {
+	float: left;
+	width: 420px;
+	padding: 15px;
+	padding-top: 0px;
+	font-size: 15px;
+}
+
+.windows > .window .alert .buttons {
+	float: left;
+	width: 420px;
+	padding: 15px;
+	padding-top: 0px;
+}
