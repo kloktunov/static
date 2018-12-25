@@ -183,6 +183,22 @@ input[type="button"].cancel:active, button.cancel:active, .button.cancel:active{
 	color: #707070;
 }
 
+input[type="button"].warning, button.warning, .button.warning {
+	background-color: #aa0000;
+}
+
+input[type="button"].warning:hover, button.warning:hover, .button.warning:hover {
+	background-color: #770000;
+}
+
+input[type="button"].warning:focus, button.warning:focus, .button.warning:focus{
+/*	background: #dcdcdc;*/
+}
+
+input[type="button"].warning:active, button.warning:active, .button.warning:active{
+	box-shadow: inset 0px 5px 20px #cdcdcd;
+	color: #770000;
+}
 
 input[type="button"][disabled], button[disabled],.button[disabled]{
 	text-align: center;
