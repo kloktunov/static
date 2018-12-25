@@ -196,8 +196,8 @@ input[type="button"].warning:focus, button.warning:focus, .button.warning:focus{
 }
 
 input[type="button"].warning:active, button.warning:active, .button.warning:active{
-	box-shadow: inset 0px 5px 20px #cdcdcd;
-	color: #770000;
+	box-shadow: inset 0px 5px 20px #550000;
+	color: #ededed;
 }
 
 input[type="button"][disabled], button[disabled],.button[disabled]{
