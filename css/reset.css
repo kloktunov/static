@@ -6,8 +6,7 @@
 body{
 	padding: 0px;
 	font-size: 11px;
-	/*font-family: 'Open Sans', tahoma, arial, verdana, sans-serif, Lucida Sans;*/
-	font-family:  'Open Sans', sans-serif;
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
 	overflow-y: scroll;
 	background: #ffffff;
 }
