@@ -41,7 +41,7 @@ a:hover{
 }
 
 
-input[type="text"], input[type="password"]{
+input[type="text"], input[type="password"], , input[type="number"]{
 	border: 1px solid #DCDCDC;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -58,11 +58,11 @@ input[type="text"], input[type="password"]{
 	-khtml-border-radius: 3px;
 }
 
-input[type="text"]:focus,input[type="password"]:focus{
+input[type="text"]:focus,input[type="password"]:focus,input[type="number"]:focus{
 	border: 1px solid #5b96cd;
 }
 
-input[type="text"][disabled], input[type="password"][disabled]{
+input[type="text"][disabled], input[type="password"][disabled], input[type="number"][disabled]{
     color: #808080;
     background-color: #f2f2f2;
 }
@@ -214,7 +214,7 @@ input[type="button"][disabled], button[disabled],.button[disabled]{
 }
 
 
-input[type="text"].error, input[type="password"].error{
+input[type="text"].error, input[type="password"].error, input[type="number"].error{
 	border-color: #d20000;
 }
 
